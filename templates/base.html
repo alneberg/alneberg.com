@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+  <title>Alneberg.com</title>
+
+  <!-- Stylesheets -->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+	<a class="brand" hrefs="./index.html"> Alneberg.com</a>
+      </div>
+    </div>
+  </div>
+  <!-- Main content -->
+  <div class="container">
+    <div class="span12">
+      {% block body %}
+      {% endblock %}
+    </div>
+  </div>
+</body>
