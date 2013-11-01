@@ -11,5 +11,11 @@ def main():
 def elin():
     return render_template('elin.html')
 
+@app.route('/johannes/envgen/blog')
+def johannes():
+    return render_template('johannes/envgen.html')
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
+
+
